@@ -1,0 +1,294 @@
+body{
+	background: #EDF1F7;
+}
+
+h2{
+
+	color: #88C773;
+	font-weight: bold;
+	font-size: 35px;
+}
+h3{
+	color:  #88C773;
+	font-weight: bold;
+	font-size: 40px;
+}
+.header-area{
+	
+	background-image: url('img/bgg.jpg');
+	background-size: 100% 100%;
+	background-position: cover ;
+	background-repeat: no-repeat; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	
+
+
+}
+
+.navbar {
+	
+	border-bottom: 3px solid #88C773;
+}
+.navbar .navbar-brand{
+	font-size: 32px;
+}
+ul li a{
+
+	font-weight: bold;
+	color:  #fff;
+	font-size: 20px;
+	border-bottom: 2px solid transparent;
+	-webkit-transition-duration: .2s;
+	-o-transition-duration: .2s;
+	transition-duration: .2s;
+}
+ul li a:hover {
+	font-weight: bold;
+	color:  #88C773;
+	font-size: 20px;
+	border-bottom: 2px solid #fff;
+}
+.d-flex .p-2{
+	border: 3px solid #88C773;
+	color:  black;
+	background-color:#fff;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+.button-area{
+	padding: 70px 0;
+	width: 60%;
+	margin: auto;
+}
+.button-area button{
+	background: #88C773;
+	padding: 10px 10px;
+	border: 2px solid #fff;
+	font-weight: bold;
+	color: #fff;
+}
+.button-area button:hover{
+	background: #fff;
+	padding: 10px 10px;
+	border: 2px solid #74A763;
+	font-weight: bold;
+	color: #88C773;
+	-webkit-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	transition-duration: .5s;
+}
+.progress{
+	width: 75%;
+	margin:auto; 
+	border: 2px solid #fff;
+}
+.progress-bar{
+	
+	background:#0BDA7B; 
+
+}
+.ourservice hr{
+	border-bottom: 3px solid #0BDA7B;;
+	width: 60%;
+}
+
+.icon-area i{
+	font-size: 24px;
+	color: #0BDA7B;
+}
+.icon-area i:hover{
+	color: #fff;
+	-webkit-transition-duration: .4s;
+	-o-transition-duration: .4s;
+	transition-duration: .4s;	
+}
+/*=====================Marcketplace==========================*/
+.marketplace{
+	min-height: 490px;
+	background: #dfe4ea;
+}
+.marketplace p{
+	font-size: 12px;
+	color: gray;
+}
+.marketplace hr{
+	color:gray;
+	border-bottom: 2px solid gray;;
+	width: 80%;
+}
+
+.about-area{
+	background-color: #4D8067;
+	min-height: 520px;
+}
+.about-area h3{
+	font-size: 25px;
+}
+
+
+/*==============Mohib =======*/
+
+.sploof-roadamp-area h2{
+	text-align: center;
+	padding-top:70px;
+	padding-bottom:100px;
+	color:#71B05F;
+}
+.sploof-team-area h2{
+	color: #2f3542;
+	
+}
+.sploof-team-area h3{
+	color: #2f3542;
+
+}
+
+.sploof-roadamp-area h2 span{
+	color:#FFFFFF;
+}
+.sploof-roadamp-area h3 {
+	font-size: 20px;
+}
+.left-section{
+	float: right;
+}
+.left-section h3{
+	color:#6FAE61;
+}
+.left-section p{
+	color:#ced6e0;
+	padding-bottom: 40px;
+}
+.right-section h3{
+	margin-top:27px;
+}
+.right-section p{
+	color:#ced6e0;
+}
+
+/* sploof-team-area */
+.sploof-team-area{
+	background: #68A562;
+	text-align: center;
+}
+.sploof-team-area h2{
+	text-align: center;
+	color: #7bed9f;
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+.sploof-team-area h2 span{
+	color: #FFFFFF;
+}
+.sploof-roadamp-area{
+	background: #DFE4EA;
+}
+.team{
+	padding:200px;
+}
+.team img{
+	filter: grayscale(100%);
+	width: 60%;
+	border-radius: 200px;
+	margin-bottom: 20px;
+}
+.team h3{
+	font-size: 22px;
+}
+.team h3 span{
+	font-size: 17px;
+	color:#a4b0be;
+}
+.team p{
+	color:#2ed573;
+	text-transform: capitalize;
+}
+.team i{
+	padding-bottom:35px;
+	color:#FFFFFF;
+}
+.team h4{
+	font-size: 30px;
+	color: #2ed573;
+	padding-top: 58px;
+}
+.team h4 span{
+	color:#FFFFFF;
+}
+.team .bione-img {
+	width:13%;
+	border-radius: 0px;
+	padding:12px;
+}
+
+/* sploof-fAQ  */
+
+.sploof-fAQ{
+	background: #DFE4EA;
+}
+.sploof-fAQ h2{
+	text-align: center;
+	color: #2ed573;
+	padding-top: 62px;
+	padding-bottom:62px;
+	font-size: 25px;
+}
+.sploof-fAQ h2 span{
+	color:#FFFFFF;
+}
+.sploof-fAQ h5{
+	padding-left: 16px;
+	color:#2ed573;
+}
+.sploof-fAQ p{
+	padding-left: 16px;
+	font-size: 12px;
+	color:#747d8c;
+	padding-bottom: 200px;
+}
+/* footer section */
+.footer-section{
+	background: #292C2F;
+}
+.footer-section h5{
+	color: #FFFFFF;
+	padding-left: 35px;
+	padding-top: 40px;
+	font-size: 25px;
+}
+.footer-section h5 span{
+	color:#5352ed;
+}
+.footer-section i{
+	background-color: #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+.footer-section h6{
+	color:#FFFFFF;
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2;
+}
+.footer-section h4{
+	color: #FFFFFF;
+	font-size: 16px;
+	padding-top: 100px;
+
+}
+.footer-section p{
+	color:#FFFFFF;
+	font-size: 12px;
+}
